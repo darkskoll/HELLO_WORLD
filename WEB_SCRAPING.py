@@ -7,4 +7,4 @@ respuesta = requests.get(url)
 if respuesta.status_code == 200:
     soup = BeautifulSoup (respuesta.text, 'html.parser')
     
-    
+    print
